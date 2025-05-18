@@ -1,9 +1,9 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace SupermarketWEB.Pages.User
+namespace SupermarketWEB.Pages.Customer
 {
-    public class UserModel : PageModel
+    public class CustomerModel : PageModel
     {
         public void OnGet()
         {
