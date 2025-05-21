@@ -17,7 +17,7 @@ namespace SupermarketWEB.Pages.Account
 
         public async Task<IActionResult> OnPostAsync() {
             if (!ModelState.IsValid) return Page();
-
+            
             if (User.Email == "correo@gmail.com" && User.Password == "12345")
             {
                 // Se crea los Claim, datos a almacenar en la Cookie
